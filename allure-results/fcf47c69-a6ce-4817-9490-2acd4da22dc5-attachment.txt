@@ -1,0 +1,178 @@
+[INFO ] 2024-10-16 00:08:41.092 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                  Powered by [1mSHAFT v.8.4.20241001-beta[22m                                                  
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-10-16 00:08:41.098 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-10-16 00:08:41.126 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-10-16 00:08:41.143 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-10-16 00:08:41.143 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-10-16 00:08:41.489 [main] Utils - [TestNG] Running:
+  C:\Users\moels\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[INFO ] 2024-10-16 00:08:41.559 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-10-16 00:08:41.612 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-10-16 00:08:41.734 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                 Starting execution of init configuration method                                                 
+                                                     'TestPackage.TaskyBasicScenarios.init'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-10-16 00:08:41.759 [main] ReportManager - Setting "autoMaximizeBrowserWindow" property with "false".
+[INFO ] 2024-10-16 00:08:41.761 [main] ReportManager - Setting "platformName" property with "android".
+[INFO ] 2024-10-16 00:08:41.762 [main] ReportManager - Setting "clearBeforeTypingMode" property with "off".
+[INFO ] 2024-10-16 00:08:41.768 [main] ReportManager - Attempting to run remotely on: "ANDROID | http://127.0.0.1:4723".
+[INFO ] 2024-10-16 00:08:41.777 [main] ReportManager - Capabilities {appium:app: D:\DEV\Testing\futureWorksh..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, platformName: ANDROID}
+[INFO ] 2024-10-16 00:08:41.781 [main] ReportManager - Attempting to instantiate remote driver instance for up to 1min.
+[INFO ] 2024-10-16 00:08:41.895 [] ReportManager - Loaded OpenCV "opencv_java490".
+[DEBUG] 2024-10-16 00:08:43.165 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-10-16 00:08:43.221 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2024-10-16 00:08:43.510 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-10-16 00:08:43.511 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-10-16 00:08:43.511 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-10-16 00:08:43.512 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-10-16 00:08:43.512 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-10-16 00:08:43.512 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.514 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.514 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.514 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.514 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.514 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.514 [] wire -  >> "[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.514 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-10-16 00:08:43.514 [] headers - >> Accept: */*
+[DEBUG] 2024-10-16 00:08:43.514 [] headers - >> Host: api.github.com
+[DEBUG] 2024-10-16 00:08:43.515 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-10-16 00:08:43.515 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)
+[DEBUG] 2024-10-16 00:08:43.515 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-10-16 00:08:43.806 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.807 [] wire -  << "Date: Tue, 15 Oct 2024 21:08:37 GMT[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.807 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.807 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.807 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.807 [] wire -  << "ETag: W/"947ca0a69a84e427f9148f417a1303488d474327416b84b154fea4487a8cc1d1"[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.807 [] wire -  << "Last-Modified: Tue, 01 Oct 2024 19:22:20 GMT[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.807 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.807 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "X-RateLimit-Remaining: 57[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "X-RateLimit-Reset: 1729029896[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "X-RateLimit-Used: 3[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "Content-Length: 1263[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.808 [] wire -  << "X-GitHub-Request-Id: D231:34A6FB:4898DAA:49A6B59:670ED9D5[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.809 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-10-16 00:08:43.809 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-10-16 00:08:43.809 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-10-16 00:08:43.809 [] headers - << Date: Tue, 15 Oct 2024 21:08:37 GMT
+[DEBUG] 2024-10-16 00:08:43.809 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-10-16 00:08:43.809 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-10-16 00:08:43.809 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-10-16 00:08:43.809 [] headers - << ETag: W/"947ca0a69a84e427f9148f417a1303488d474327416b84b154fea4487a8cc1d1"
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << Last-Modified: Tue, 01 Oct 2024 19:22:20 GMT
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << X-Frame-Options: deny
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << Content-Encoding: gzip
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << Server: github.com
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << X-RateLimit-Remaining: 57
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << X-RateLimit-Reset: 1729029896
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << X-RateLimit-Used: 3
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << Content-Length: 1263
+[DEBUG] 2024-10-16 00:08:43.810 [] headers - << X-GitHub-Request-Id: D231:34A6FB:4898DAA:49A6B59:670ED9D5
+[DEBUG] 2024-10-16 00:08:43.821 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-10-16 00:08:43.821 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]Wo[0xdb]6[0x10][0xfd]*[0x82][0x8a]b@fI[0x96]";[0x8e][0x80][0xa2]Kb[0xb7])[0xd6]$h[0x93]aX[0xc0][0xa0]%Zb"[0x89]*I9u[0x8d]|[0xf7]="
+[DEBUG] 2024-10-16 00:08:43.821 [] wire -  << "[0xd2][0xb2]W[0xbb][0xa9][0xd3][0xc5][0xce]?[0x12]M[0x8b][0xef][0x8e][0xef][0x8e][0xef][0x8e]3[0xbb][0x16][0xb9][0x1d][0xd9][0x99]R[0x95][0x8c]<[0x8f]T[0xcc]M[0x99][0xca][0xea][0x91][0x1b][0xf3][0xc2][0x13][0xb4][0xe2][0xd2][0xbb][0xcc][0xc8]X[0x9d][0xbe][0xf3].O[0x8f]^][\r][0x7][0xe7][0xaf][0xdf][0x9c][0xf][0xf0]WN[0x89][0xa4][0xd2][0xf3][0xf][0xe]z[0x7][0xdd]N7[0xb0][6[0x91][0x92]*9[0xdc][0x1d][0xa6]7G[0x4]t][0xe5][0x9c]$k[0xd0][0xf3]I[0xf9]h[0x97][0x1b][0xf8][0xd9][0xcb][0x92][0x14][0xb4][0x95][0x93][0x11][0xcd][0xef]`+SE[0xbe]f[0xe9];R6[0xd3][0xa1]H[0xea][0xf5][0xdc][0xd0][\r][0xda]A[0xe8][0xb7][0xdb][0xbe]3[0xa2][0x8a][0x0][0x93]%v[0xb4][0xa4][\n]"
+[DEBUG] 2024-10-16 00:08:43.821 [] wire -  << "L[0xd5]*[0xe3][0xc2][0x8e]fv[0xce]SV"[0x4]s[0xb][0xe][0x89][0x15][0xe3][0xa5][0xfc]8[0xe2][0xea]s[0xb3],[0xf4]{[0x87][0xbd][0xa0][0x17][0xb4][0xec][0x92]'t[0xa8][0x91][0xec][0xb3][0xfe]Y[0xf7]]q[0xd8]>[0xef][0xf][0xc2][0x8b][0xab]tz[0xd1][0xf3]B[0x7]`B[0x14][0x11][0xeb][0x1]0[0x93][0xb][0x96]jIE[0xcc]KEKeb[0xcc]J[0xcf][0xef][0xec]w{/'/B [0xa4][0xa2][0xc1]0f4[0xf1][0x9b][0x12]D[0x83]Io[0xd5][0xf5][0xe7][0x9d]c8[0xff][0xbc][0xd3][0x90]IRU[0xeb][0x8b][0xb1]f[0xcc][0xf3][0x9c][0xdf][0x2]w}[0x1b][0xab][0xb9][0xb9][0xd1][0xb4][0xb7][0x4]Y[0x2][0xb2]2[0xdd][0x1e][0x10] 3[0x8f][0xab][0x8c][0x82]cl]'K[0xca][0xe4]C)[0xbf][0xd9]U[0x3]0[0x3][0x89]R![0xb6][0x1a]R"\[0x82][0xae]'[0xfb][0xda][0xd9][0xdc][0xc][0xda]@[0xc0][0xd9][0xdb][0x12]~[0xce][0xcc]Q6[0xd8][0xf5]H[0xc6][0x82]U&[0xcb][0xb6]!d[0x5][0x8][0xc0]\[0xa4][0xa4]d[0xdf][0xc8][0xd6][0xc0][0x0][0x92][0xc0]3[0xda][0xb3][0x8d][0x83][0x6][0x0]@t[0x82]T[0xdf][\n]"
+[DEBUG] 2024-10-16 00:08:43.821 [] wire -  << "i[0x8e]0[0xf3]*[0xc1]&$[0x9e]j[0x1a][0x5][0x8d])[0x9b] F[0xdb][0xa3][0xaf]A[0x1]\M+[0x8a][0xc3]w[0xcc][0x95][0xe][0x18]StH[0x92]B[0x8b][0xc4][0x98][0xe4][0x92][0xde]}[0xaf][0x3][0xef][0x7][0xc3][0x9b][0xdb][0xfe][0xc5][0xc9]kz[0xd5][0x95][0xe1][0x9f][0x5][0xeb]\j[0x0][0x92][0xe][0xb5][0xa4][0x1][0xe4]>-Bz[0xa5]T[\r]q[0xfa][0xb][0xa6][0x98][0xcc][0xf0]YA[0x80][0xf][0xe0][0x9f]/J[0x4][0xaa]@[0xe3]B[0xcb][0xae][0x4]m*[0xc0]r*[0x16][0x94](0B[0xf0][0x95][0xad][0xe5][0xcf][0xf1][0xdb]N[0xdb][0xbf][0xf2][0xf][0xa3][0xc0][0x8f][0xc2][0xce][0x7][0xe0]W[0xf5]([0x87][0xc1][0x9f]|[0x15]DA[[0xd5][0x88]~[0xf4][0xf1][0xb3][0xde][0x8a][0x18][0x91]|][0x8e][0xbd]N5[0xeb][0xef][0xd5][0xe4]o[0xac][0xda][\n]"
+[DEBUG] 2024-10-16 00:08:43.821 [] wire -  << "[0xbb]Y/[0xf6][0x88]'S[0xf0][0xf0][0xec][0x99][0xf5]wF[0xd4]o[0xd2]:[0xc9]H[0x99][0xd2][0xe4]S[0xb9]g[0x1d][0xd7]Ee![0xcd][0xdd][0xeb][0xba]d*2Og[0xc4][0xb]k,[0xf0][0xe8][0xb8][0xbe][0xef][0xb6]-[0xc5][0xe7]#[0xdf][0x1a]M[0xad]?[0x12]Z[0xd1]2![0x10]V[0x8b][0x95][0xd6][0xa2]\?T[0x95][0xaa]:[0xcf]Q[0xa0][0xc3][0x3]m[0xf5][0xaf]*A|[0xac][0xf7][0x83][0xa3][0xfe][0xd9][0xc0]-[0x12][0x83]{tz6[0xe8][0xf7]O[0x7]o[0x8f][0xde][0xfe][0xf3][0x8][0xe4]N[0xa8][0x91][0xb]>[0x81]0Z[0xc8][0x90][0xd4]"e[0x82][0x1][0xaf][0xb4][0xff]%[0xbd][0xb5]b.[0xa8][0xb1]t[0xc6]32[0xc2][0x83][0xd1][0xc7][0xd8][0xd9]_[0xe1][0xad][0xe0][0xf1][\r]S<j[0xde][0x8e]1[0xb2] oI^[0x88][0xd1][0xd6][0xe4]u[0xba]+[0xa6]IE[0xe2][0x8c][0xba][0x5][0x81][0xaa][0xb8]U^[0xa3]x[0xcb][0xc8][0xfc]r[0xd2]*u[0xe6]3s_[0xf6][0xdd][0xc0][0xed]j[0x1e][0xf4][0xe0]`[0x7][0x9e]t[0xee][0xf3][0x4][0xfd][0x3]|H][0xbc][0xc3][0xeb][0xc8]<[0x1d][0x99][0x8f][0xc3][0xeb][0xc0]aE[0x95][0xcf]][0x9][0xdc]@[0x93][0x1]_[0xcc]h[0x7]9[0xd5]19[0xb5][0xcc][0xe4][0x86][0x96][0xfb][0x9c][0xf1][0xdd][0xc0][0xc1]y}2Gz[0xbf][0xea][0xc8]Y[0xf2][0x4]t[0x1c].[0xbd][0x80][0xac][0xba]c"[0x15][0x15]_[0x8b][0xdc][0xbd]&[0xf1][0x8d][0xe4][0xa5][0x8b][0xb3]G[0xb4][0xae]G[0xcd][0x84][0xb3][0x98]p[0xae][0x93][0x9b][0xde][0x82][0x1c][0xff][0xc0][\r][0xe6]Q[0xf2]{[0xbb]H[0xde][0xae]9[0x9f][0xcb](m<7M[0x82]@~v[0x92] [0xdd][0xd5]#[0xbb]!A[0x9e]09[0xba][0x81][0xde]?I[0x12]+[0xc6]uE[0x1c][0xd3]1[0x94][0xe2]jZ[0xe1][0xc0][0x9c][0xa1][0x97][0xb6][0xc6][0xf9]B[0xb2](*Z[0x8c][0xe6][0x5]:[0xc6][0xf3][0xc4][0xfc]![0xad][0xb9]DfE[0xf2][0x81][0x94][0x9c][0x97][0x8f][0x11].[0xe3][0x0].[0x2][0x87][0xce][0x18][0xe5][0xb1][0x16][0xd4][0x11][0xf4]KM[0xa5]r[0xe0][0x95][0x3]wb[0xea][0x8c][0x9][0xcb][0x1d]][0xf4][0x84]n[0x9e][0x9c][0x82]JIR[0x8a][0x19][0x87]~[0x8d][0xa9]i[0xd5][0x1c]*[0x4][0x17][0x8b][0xbf][0xb6][0x17][0xd4][0xae][0xd1][0x12]CL-[0x15][0xaa]Nc[0xd4][0x82]G[0xd8][0xe6][0x84][0xe4],[0xb1][0xd0][0xfa][0xef][0xc0][0x92][0xd1][0xcf][0xa6]Y[0xb0][0xc0]re[0xfd][0xd0][0x93][0xec][0xc0][\n]"
+[DEBUG] 2024-10-16 00:08:43.821 [] wire -  << "[0xe4][0xe8]S[0x89]j{[0x8e][0x9a]s[0x82][0xeb][0x8d]`[0xa3]Zq![0xb5][0xf1][0xd5]*W[0x10][0x4][0x1e]-<[0x13][0xd6][0x98][0x9][0xa9]P[0xa2][0x9a][0xcf][0xc1][0xf3]cB[0x8c]3[0x6]+{[0xaf]Pl[0x9b]*[0xf][0x19][0xdc][0xdb][0x8b]~[0xb9]LC1*"([0xfa][0x8]T[\n]"
+[DEBUG] 2024-10-16 00:08:43.821 [] wire -  << "4N[0xed]C4O[0xfa][0xde][0xe8][0xba][0xee][0xf]\[0x99][0xe6][0xb3][0xb9]%[0xea][0xfb][0xe3][0xc6][0xfb][0xd9][0xff][0xba][0xc0][0xe3][0x8e][0xb0][0xc0]E[0xdf][0xc5][0x15][0xc9][0xd1]"[0xd6]%[0xda]9[0xbf]e[0xff][0xee][0x9b][0x97][0x83]W[0xbb]e[0xe7][0xa4]N[0xd1]6b[0x94]q.[0x8]:[0x1d][0xc][0xc1][0xe3][0x18][0xb7][0x12][0xdc][0x1b][0xf5]<[0x8e][0x1b]Vb$P[0xac][0xe9]|H[0xa7]Tb[0xe][0x1d]l[0x81][0x9e][0xdc][0xdc]@[0x1a][0xb][0xe1][0xdd][0xbf]r[[0xc5][0xe][0x8b][0x10][0x0][0x0]"
+[DEBUG] 2024-10-16 00:08:43.821 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-10-16 00:08:43.907 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@43cd3ee9
+[DEBUG] 2024-10-16 00:08:43.908 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-10-16 00:08:44.170 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:53809<->140.82.121.6:443 closed
+[INFO ] 2024-10-16 00:08:44.570 [] ReportManager - You're using the latest engine version "8.4.20241001-beta". 👍
+[INFO ] 2024-10-16 00:08:52.879 [main] ReportManager - Successfully instantiated remote driver instance.
+[INFO ] 2024-10-16 00:08:52.880 [main] ReportManager - Successfully Opened "Native androidapp".
+[INFO ] 2024-10-16 00:08:52.885 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/tasks.json".
+[INFO ] 2024-10-16 00:08:52.887 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-10-16 00:08:52.906 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: init'
+[INFO ] 2024-10-16 00:08:52.928 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                          Test Method: 'TestPackage.TaskyBasicScenarios.addDeleteTask'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-10-16 00:08:52.930 [main] ReportManager - ANDROID
+[INFO ] 2024-10-16 00:09:00.682 [main] ReportManager - Click "By.xpath: //androidx.compose.ui.platform.k1/android.view.View/android.view.View/android.view.View[3]/android.widget.Button"
+[INFO ] 2024-10-16 00:09:01.380 [main] ReportManager - Type "By.xpath: //android.widget.EditText"
+[INFO ] 2024-10-16 00:09:02.782 [main] ReportManager - Click "By.xpath: //android.view.ViewGroup/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.widget.Button"
+[INFO ] 2024-10-16 00:09:02.783 [main] ReportManager - ANDROID
+[INFO ] 2024-10-16 00:09:02.811 [main] ReportManager - Assert that the element located by "By.xpath: //androidx.compose.ui.platform.k1/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View" exists.
+[DEBUG] 2024-10-16 00:09:03.059 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2024-10-16 00:09:04.756 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_00-09-04-754_16102024'
+[INFO ] 2024-10-16 00:09:04.757 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2024-10-16 00:09:04.758 [main] ReportManager - Assertion passed
+[INFO ] 2024-10-16 00:09:04.980 [main] ReportManager - Click "By.className: android.widget.CheckBox"
+[INFO ] 2024-10-16 00:09:04.982 [main] ReportManager - Assert that the element located by "By.className: android.widget.CheckBox" is checked; checked attribute is TRUE.
+[DEBUG] 2024-10-16 00:09:07.872 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2024-10-16 00:09:08.824 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_00-09-08-823_16102024'
+[INFO ] 2024-10-16 00:09:08.830 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2024-10-16 00:09:08.831 [main] ReportManager - Assertion passed
+[INFO ] 2024-10-16 00:09:10.215 [main] ReportManager - Click "By.xpath: //androidx.compose.ui.platform.k1/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View"
+[INFO ] 2024-10-16 00:09:11.765 [main] ReportManager - Click "By.xpath: //android.view.ViewGroup/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[3]/android.widget.Button"
+[INFO ] 2024-10-16 00:09:11.766 [main] ReportManager - Assert that the element located by "By.xpath: //android.widget.TextView[@text="No Tasks"]" exists.
+[DEBUG] 2024-10-16 00:09:11.978 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2024-10-16 00:09:12.916 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_00-09-12-914_16102024'
+[INFO ] 2024-10-16 00:09:12.916 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2024-10-16 00:09:12.917 [main] ReportManager - Assertion passed
+[INFO ] 2024-10-16 00:09:13.578 [main] ReportManager - Click "By.xpath: //androidx.compose.ui.platform.k1/android.view.View/android.view.View/android.view.View[2]/android.widget.Button"
+[INFO ] 2024-10-16 00:09:13.580 [main] ReportManager - ANDROID
+[INFO ] 2024-10-16 00:09:14.256 [main] ReportManager - Click "By.xpath: //android.widget.ScrollView/android.view.View[5]/android.view.View"
+[INFO ] 2024-10-16 00:09:14.257 [main] ReportManager - Assert that the element located by "By.xpath: //android.widget.ScrollView/android.view.View[5]/android.view.View" attribute "checked" is FALSE.
+[DEBUG] 2024-10-16 00:09:15.472 [main] ReportManager - Expected "false", and actual "false"
+[INFO ] 2024-10-16 00:09:16.658 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_00-09-16-655_16102024'
+[INFO ] 2024-10-16 00:09:16.660 [main] ReportManager - Expected "false", and actual "false"
+[INFO ] 2024-10-16 00:09:16.660 [main] ReportManager - Assertion passed
+[INFO ] 2024-10-16 00:09:16.665 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: addDeleteTask'
+[INFO ] 2024-10-16 00:09:16.665 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                               Finished Execution of Test Method: 'TestPackage.TaskyBasicScenarios.addDeleteTask'                               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-10-16 00:09:16.790 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-10-16 00:09:16.791 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

@@ -1,0 +1,10 @@
+[ReportManager] Setting "autoMaximizeBrowserWindow" property with "false". @16-10-2024 00:08:41.0759 AM
+[ReportManager] Setting "platformName" property with "android". @16-10-2024 00:08:41.0761 AM
+[ReportManager] Setting "clearBeforeTypingMode" property with "off". @16-10-2024 00:08:41.0762 AM
+[ReportManager] Attempting to run remotely on: "ANDROID | http://127.0.0.1:4723". @16-10-2024 00:08:41.0768 AM
+[ReportManager] Capabilities {appium:app: D:\DEV\Testing\futureWorksh..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, platformName: ANDROID} @16-10-2024 00:08:41.0775 AM
+[ReportManager] Attempting to instantiate remote driver instance for up to 1min. @16-10-2024 00:08:41.0780 AM
+[ReportManager] Successfully instantiated remote driver instance. @16-10-2024 00:08:52.0878 AM
+[ReportManager] Successfully Opened "Native androidapp". @16-10-2024 00:08:52.0880 AM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/tasks.json". @16-10-2024 00:08:52.0885 AM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @16-10-2024 00:08:52.0887 AM
